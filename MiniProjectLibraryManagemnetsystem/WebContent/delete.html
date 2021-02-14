@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Delete Record
+	</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width = device-width, initial-scale=1">
+</head>
+<body>
+<header style="height: 80px; text-align: center;">
+
+	<div class="logo">
+		<h1 style="color: white; font-size: 25px; line-height: 50px; margin-top: 15px"> LIBRARY MANAGEMENT SYSTEM</h1>
+	</div>
+	<nav>
+		<ul>					
+		
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="addbook.html"> ADD </a></li>
+			<li><a href="update.html"> UPDATE </a></li>
+			<li><a href="delete.html"> DELETE </a></li>
+			<li><a href="showrecord.jsp"> SHOWBOOKS</a></li>
+			<li><a href="index.html"> LOGOUT</a></li>
+
+		</ul>
+	</nav>	
+</header>
+
+<section>
+	<div class="addbook_img">
+		<div class="box3">
+		<br><br><br><br><br><br>
+			<h1 style="text-align: center; font-size: 25px;">DELETE BOOK</h1>
+		<form  action="delete.jsp" method="post">
+		<br><br>
+		<div class="addb">
+			<input type="text" name="Book_Id" placeholder="Book Id" required><br><br>		
+			<button class="button">Delete</button></div>		
+		</form>
+		
+		</div>
+	</div>
+</section>

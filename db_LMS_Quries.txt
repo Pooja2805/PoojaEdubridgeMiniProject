@@ -1,0 +1,33 @@
+create database SampleDB;
+
+use SampleDB;
+
+create table registrationad(
+Office_Id int(11) Not null,
+Firstname varchar(45)  not null, Lastname varchar(45)  not null, 
+Email varchar(45)  not null, Username varchar(45)  not null,
+Pass_word varchar(45)  not null,
+ primary key(Office_Id)
+ );
+ 
+ select * from registrationad;
+ 
+ create table addbook13(
+Book_Id int(15) not null,
+Bookname varchar(45)  not null, Authorname varchar(45)  not null, 
+Book_Quantity int(10) Not null,
+ primary key(Book_Id)
+ );
+ 
+  select * from addbook13;
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
